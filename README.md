@@ -25,14 +25,7 @@ part3/
 
 (testbench and diagram file names: write your own names here)
 
-## How to run
-
-Each part is run the same way. Compile the design and its testbench, then run it.
-
-```
-vlog part_1.v tb_part_1.v
-vsim -c tb_part_1 -do "run -all; quit"
-```
+Also a attached pdf file is there which contains requied state diagrams and block diagrams and necessary explanations
 
 For part 2 compile both designs with the testbench, and for part 3 use `part3.v`. In Quartus I did the same thing from the GUI (Tools, Run Simulation Tool). Change the testbench names above to the ones in the repo.
 
